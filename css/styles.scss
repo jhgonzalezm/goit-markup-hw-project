@@ -1,8 +1,14 @@
+$color-1: #000000;
+$color-2: #ae1332;
+$color-3: #a4cb66;
+$color-4: #f5ce13;
+$color-5: #fff;
+$font-family: 'DM Sans', sans-serif;
+
 * {
   text-decoration: none;
   list-style-type: none;
 }
-
 .m-0 {
   margin: 0;
 }
@@ -10,7 +16,6 @@
 .p-0 {
   padding: 0;
 }
-
 .main {
   display: block;
   justify-content: center;
@@ -18,7 +23,7 @@
   height: 1147px;
   margin: 0px auto;
   padding: 0px;
-  background-color: #ae1332;
+  background-color: $color-2;
   position: relative;
 }
 
@@ -43,14 +48,16 @@
   position: absolute;
   top: 102px;
   left: 397px;
+
   width: 486px;
   height: 742px;
+
   border: 1px;
   border-style: solid;
-  border-color: #fff;
+  border-color: $color-5;
+
   border-radius: 300px;
 }
-
 .main__orange__img {
   margin: 17px 17px;
 }
@@ -62,9 +69,8 @@
   width: 114px;
   height: 114px;
   flex-shrink: 0;
-  fill: #fff;
+  fill: $color-5;
 }
-
 .main__orange__text {
   /* white-space: word-wrap; */
   word-wrap: word-break;
@@ -74,10 +80,11 @@
   width: 84px;
   height: auto;
   transform: rotate(-14deg);
-  color: #ae1332;
+
+  color: $color-2;
   text-align: center;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
-  font-family: "DM Sans", sans-serif;
+  font-family: $font-family;
   font-size: 28px;
   font-style: normal;
   font-weight: 500px;
@@ -87,7 +94,7 @@
 }
 
 .main__orange__shop:hover > .main__orange__text {
-  color: #a4cb66;
+  color: $color-3;
 }
 
 .main__orange__text_span {
@@ -95,7 +102,6 @@
   height: auto;
   word-wrap: word-break;
 }
-
 .main__title {
   position: absolute;
   box-sizing: border-box;
@@ -104,7 +110,6 @@
   margin-top: 64px;
   margin-left: 191px;
 }
-
 .main__text__left {
   position: absolute;
   width: 222px;
@@ -118,7 +123,7 @@
   flex-direction: column;
   position: absolute;
   border-radius: 500px;
-  background: #a4cb66;
+  background: $color-3;
   width: 249px;
   height: 387px;
   top: 560px;
@@ -127,12 +132,11 @@
   justify-items: center;
   align-content: center;
 }
-
 .main__watermelon_title {
-  color: #fff;
+  color: $color-5;
   text-align: center;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
-  font-family: "DM Sans", sans-serif;
+  font-family: $font-family;
   font-size: 12px;
   font-style: normal;
   font-weight: 400px;
@@ -140,7 +144,6 @@
   letter-spacing: -0.48px;
   padding-bottom: 61px;
 }
-
 .main__watermelon_img {
   margin: 0px auto 2px;
 }
@@ -150,22 +153,22 @@
   top: -55px;
   left: -19px;
 }
-
 .main__watermelon_legend {
   position: relative;
   top: -38px;
   margin: 0px auto;
-  color: #fff;
+  color: $color-5;
   text-align: center;
   justify-items: center;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
-  font-family: "DM Sans", sans-serif;
+  font-family: $font-family;
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: 14px; /* 116.667% */
   letter-spacing: -0.48px;
   text-transform: uppercase;
+
   width: 155px;
   height: 70px;
 }
@@ -175,7 +178,7 @@
   flex-direction: column;
   position: absolute;
   border-radius: 500px;
-  background: #f5ce13;
+  background: $color-4;
   width: 249px;
   height: 387px;
   top: 336px;
@@ -184,12 +187,11 @@
   justify-items: center;
   align-content: center;
 }
-
 .main__basket_title {
-  color: #fff;
+  color: $color-5;
   text-align: center;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
-  font-family: "DM Sans", sans-serif;
+  font-family: $font-family;
   font-size: 12px;
   font-style: normal;
   font-weight: 400px;
@@ -197,7 +199,6 @@
   letter-spacing: -0.48px;
   padding-bottom: 19px;
 }
-
 .main__basket_img {
   margin: 0px auto 17px;
 }
@@ -207,22 +208,22 @@
   top: -58px;
   left: -19px;
 }
-
 .main__basket_legend {
   position: relative;
   top: -38px;
   margin: 0px auto;
-  color: #fff;
+  color: $color-5;
   text-align: center;
   justify-items: center;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
-  font-family: "DM Sans", sans-serif;
+  font-family: $font-family;
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
   line-height: 14px; /* 116.667% */
   letter-spacing: -0.48px;
   text-transform: uppercase;
+
   width: 163px;
   height: 84px;
 }
@@ -231,7 +232,9 @@
   position: absolute;
   top: 767px;
   left: 952px;
+
   width: 270px;
+
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-end;
@@ -241,13 +244,15 @@
 .main__buttons_li {
   display: inline-flex;
   padding: 12px 32px;
+
   border-radius: 1000px;
-  border: 1px solid #fff;
+  border: 1px solid $color-5;
+
   height: 38px;
-  color: #fff;
+  color: $color-5;
   text-align: center;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
-  font-family: "DM Sans", sans-serif;
+  font-family: $font-family;
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
@@ -260,42 +265,39 @@ body {
   margin: 0px;
   padding: 0px;
 }
-
 h1 {
-  color: #fff;
+  color: $color-5;
   text-align: center;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
-  font-family: "DM Sans", sans-serif;
+  font-family: $font-family;
   font-size: 64px;
   font-style: normal;
   font-weight: 500;
   /*line-height: 64px; /* 100% */
   letter-spacing: -2.56px;
   text-transform: uppercase;
-  font-family: "DM Sans", sans-serif;
+
+  font-family: $font-family;
 }
 
 h4 {
-  color: #fff;
+  color: $color-5;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
-  font-family: "DM Sans", sans-serif;
+  font-family: $font-family;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 18px; /* 128.571% */
   letter-spacing: -0.56px;
 }
-
 h5 {
-  color: #fff;
+  color: $color-5;
   text-align: center;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
-  font-family: "DM Sans", sans-serif;
+  font-family: $font-family;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
   line-height: 14px; /* 116.667% */
   letter-spacing: -0.48px;
 }
-
-/*# sourceMappingURL=styles.css.map */
